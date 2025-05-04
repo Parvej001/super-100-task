@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Builderz - Construction Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .top-bar {
+      background-color: #fcb700;
+      padding: 10px 0;
+    }
+    .navbar {
+      background-color: #051225;
+    }
+    .navbar a, .navbar-brand {
+      color: white !important;
+    }
+    .hero-section {
+      position: relative;
+      color: white;
+      text-align: center;
+    }
+    .hero-section img {
+      width: 100%;
+      max-height: 80vh;
+      object-fit: cover;
+      filter: brightness(0.6);
+    }
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .feature-box {
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+    .feature-1 {
+      background-color: #051225;
+    }
+    .feature-2 {
+      background-color: #fcb700;
+      color: #000;
+    }
+    .feature-3 {
+      background-color: #051225;
+    }
+  </style>
+</head>
+<body>
+
+<div class="top-bar text-white text-center">
+  <div class="container d-flex justify-content-between">
+    <div>Opening Hour: Mon - Fri, 8:00 - 9:00</div>
+    <div>
+      Call Us: +012 345 6789 |
+      Email: info@example.com
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Builderz</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Project</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+      <a class="btn btn-outline-light ms-3" href="#">Get A Quote</a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero-section">
+  <img src="/assets/industry.jpeg" alt=" Image">
+  <div class="hero-content">
+    <h5>We Are Professional</h5>
+    <h1>For Your Dream Project</h1>
+    <a href="#" class="btn btn-outline-light mt-3">Get a Quote</a>
+  </div>
+</section>
+
+
+<section class="container-fluid">
+  <div class="row text-white">
+    <div class="col-md-4 feature-box feature-1">
+      <h4>👷 Expert Worker</h4>
+      <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non.</p>
+    </div>
+    <div class="col-md-4 feature-box feature-2">
+      <h4>🏗️ Quality Work</h4>
+      <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non.</p>
+    </div>
+    <div class="col-md-4 feature-box feature-3">
+      <h4>📞 24/7 Support</h4>
+      <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non.</p>
+    </div>
+  </div>
+</section>
+
+
+
+</body>
+</html>
